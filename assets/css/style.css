@@ -1,0 +1,462 @@
+/*  */
+*{
+  box-sizing: border-box;
+    font-family: 'Poppins',serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-color: #f3f3f3 !important;
+}
+
+a {
+text-decoration: none !important;
+}
+
+.container-login {
+background-image: url(../img/login/bg_login_blur.png) !important;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment:fixed;
+}
+
+/* hover link */
+.link-text:hover{
+  color:salmon !important;
+}
+
+/* end hover link */
+
+
+/* color */
+.bg-bluegra {
+  background-image: linear-gradient(to right, #3B9AE1, #03C6D2);
+
+}
+
+.btn-bluesky{
+ color: #1EB0D9;
+}
+
+btn-bluenew{
+ background-color: #1EB0D9 !important;
+  
+}
+
+.text-grey{
+  color: grey !important;
+}
+
+/* end color */
+
+/* font */
+.h35{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* navbar */
+nav ul li a {
+  color: black !important;
+}
+.active-link {
+  border-top: 2px solid black;
+  box-sizing: border-box !important;
+}
+
+.linkpad{
+  margin-top: -2.1px !important;
+}
+
+nav ul li a:hover{
+  color: white !important;
+
+}
+
+nav button a:hover {
+  color: black;
+}
+
+
+/* end navbar */
+
+/* slider */
+.caurasel-margin {
+  margin-bottom: 90px !important;
+}
+.caurasel-padding {
+ 
+  width: 400px;
+}
+
+.carousel-inner .carousel-item img{
+  height: 590px;
+}
+
+.rounded-100{
+  border-radius: 100%;
+  padding: 15px;
+  width: 60px;
+  margin-top: -80px;
+}
+/* end slider */
+
+/* aside */
+.mtop{
+  margin-top: -20px !important ;
+}
+
+/* aside */
+
+/* header about */
+.header-all {
+  font-family: Arial, Helvetica, sans-serif !important;
+  height: 400px;
+  padding: 50px;
+  font-weight: bold !important;
+  padding-top: 150px;
+  text-align: center;
+  font-weight: bold;
+}
+.header-all hr {
+  background-color: white;
+  border: 1px solid white;
+}
+.header-about{
+  background-image: url(../img/about/bg_about_blur.png);
+  background-repeat: no-repeat;
+}
+
+.header-news{
+  background-image: url(../img/news/header_news.png);
+  background-repeat: no-repeat;
+  box-shadow: 30px 2px -100px white !important;
+
+}
+
+.header-contact{
+  background-image: url(../img/contact/bg_contact-1.png);
+  background-repeat: no-repeat;
+  box-shadow: 30px 2px -100px white !important;
+
+}
+
+
+
+.content{
+  background-color: white;
+  text-align: justify;
+}
+/* end header about */
+
+
+
+
+
+
+/* content */
+.content-news{
+  background-color: #3B9AE1;
+  /* background-image: url(../img/news/bg_news.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: -5px -5px 30px white;
+}
+
+.content-contact{
+  background-image: url(../img/contact/bg-contact-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: -5px -5px 30px white;
+}
+
+.content-news article {
+  box-sizing: border-box;
+  margin-bottom: 20px !important;
+}
+
+.box {
+  width: 100%;
+  padding: 40px;
+  opacity: .8;
+  background-color: #fff;
+  z-index: 99999;
+  margin-top: -50px !important;
+  position: relative;
+}
+
+.opacity-80{
+background: rgba(240, 242, 240, 0.8);
+
+}
+
+.feauture{
+width: 200px;
+height: 400px;
+}
+
+.top{
+  /* height: 1000px; */
+  margin-top: -60px;
+  padding-bottom: 50px;
+  background-image: url(../img/home/bg2-blur.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.fontSizeJudul{
+  margin-top: 60px !important;
+  font-size: 40px !important;
+  font-weight: bold !important;
+}
+.mb-30{
+  margin-bottom: 10px !important;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
+.row .col-4 header .figure img:hover{
+  opacity: .5 !important;
+  color: black !important;
+  cursor: pointer;
+}
+.donasi{
+  margin-top: 10px;
+  margin-bottom: 30px !important;
+  display: inline-block;
+}
+
+.donasi a:hover {
+  color: rgb(141, 47, 47) !important;
+  font-style: italic;
+}
+
+
+.alamat p {
+  font-size: 15px;
+  text-align: justify;
+  margin-left: 30px;
+}
+
+.mx8{
+  padding: 50px;
+}
+/* end content */
+
+
+/* footer */
+
+.box1{
+ margin-top: 0px !important;
+ padding-bottom: 20px;
+}
+
+.sosmed{
+ margin-top: 20px !important;
+}
+
+.sosmed ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.sosmed ul li a {
+  margin-right: 40px;
+}
+
+
+.copyright {
+  border-top: 1px solid white;
+  font-size: 20px;
+  padding: 5px;
+}
+
+/* end footer */
+
+
+.navbar-toggler-icon {
+  color: black;
+}
+
+
+/* form content */
+
+.btn-daftar{
+  width: 100%;
+}
+
+.radio-box{
+  border: 1px solid rgb(209, 208, 208) !important;
+  padding: 15px; 
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* login & regis */
+.login{
+  margin-top: 20vh;
+  padding-bottom: 10px;
+  
+}
+
+.regis{
+  
+  margin-top: 20vh;
+  padding-bottom: 10px;
+} 
+
+/* end login & regis */
+
+/* responsive */
+
+@media screen and (min-width:573px) and (max-width: 960px) {
+.full-navbar {
+    display: none !important;
+}
+   
+.carousel-inner .carousel-item img{
+  height: 350px;
+}
+
+.container{
+  padding: 0;
+}
+
+.mobile-nav{
+  z-index: 999999;
+}
+
+.fa-2x{
+  font-size: 15px;
+}
+
+.rounded-100{
+  /* border-radius: 100%; */
+  width: 35px;
+  padding: 6px;
+  margin-top: 0px;
+}
+
+.carousel-indicators{
+  width: 70px;
+  height: 70px;
+  top: 250px;
+  margin: auto;
+}
+
+.fa-2xl {
+  font-size: 20px;
+}
+
+aside .col-4 span{
+  font-size: 15px;
+
+}
+.caurasel-padding {
+  display: none;
+}
+
+
+
+
+}
+
+@media screen and (min-width:240px) and (max-width: 572px) {
+.full-navbar {
+display: none !important;
+}
+
+.mobile-nav {
+position: fixed;
+z-index: 99999;
+width: 100%;
+}
+
+.carousel-inner .carousel-item img{
+margin-top: 55px;
+height: 350px;
+}
+
+.container{
+padding: 0;
+}
+
+.fa-2x{
+font-size: 15px;
+}
+
+.rounded-100{
+/* border-radius: 100%; */
+width: 35px;
+padding: 6px;
+margin-top: 0px;
+}
+
+.carousel-indicators{
+width: 70px;
+height: 70px;
+top: 300px;
+margin: auto;
+}
+.fa-2xl {
+  font-size: 10px;
+}
+
+aside .col-4 span{
+font-size: 13px;
+
+}
+
+.box {
+  z-index: 999;
+  width: 100%;
+  padding: 40px 0px 40px 0px;
+}
+
+.mx8{
+  padding: 30px;
+}
+.advise {
+  margin: 0px;
+}
+
+.header-all {
+  padding-top: 180px;
+}
+}
+
+@media screen and (min-width:961px){
+.mobile-nav {
+      display: none !important;
+  }
+  .login{
+    margin-top: 18vh;
+      width: 40%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .regis{
+      margin-top: 10vh;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+}
+
+
+
+
+/* ck editor */
+.ck-editor__editable[role="textbox"] {
+  /* editing area */
+  min-height: 200px;
+}
+.ck-content .image {
+  /* block images */
+  max-width: 80%;
+  margin: 20px auto;
+}

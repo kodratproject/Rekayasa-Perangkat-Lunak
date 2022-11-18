@@ -1,0 +1,26 @@
+
+.login{
+  margin-top: 20vh;
+  padding-bottom: 10px;
+}
+
+.regis{
+  
+  margin-top: 20vh;
+  padding-bottom: 10px;
+}
+@media screen and (min-width:961px){
+  
+  .login{
+    margin-top: 18vh;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .regis{
+    margin-top: 10vh;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
